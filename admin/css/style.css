@@ -1,0 +1,90 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(https://bangladesh.gov.bd/themes/responsive_npf/images/bg_main.gif);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: arial;
+}
+#profile-img {
+	height: 80px;
+}
+#submitprofile-img {
+	height: 235px;
+  	width: 211px;
+  	float: right;
+}
+.form {
+	padding: 20px 180px;
+}
+/*.container {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+}*/
+.headline {
+	font-weight: bold;
+	font-family: arial;
+}
+.headline-txt {
+	font-weight: 500;
+	font-family: arial;
+}
+hr {
+	margin-bottom: 50px;
+	border: 1px dashed;
+}
+
+
+section {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 8px;
+}
+thead {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.data {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+
+.data {
+  table-layout: auto;
+  width: 100%;  
+}
+.jysd {
+	background-color: #E4E6E5;
+	width: 20%;
+	padding: 8px;
+	border: 1px solid black;
+}
+.ficun {
+	background-color: #EDEEF0;
+	width: 80%;
+	padding: 8px;
+	border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.form {
+    padding: 0px 120px;
+}
+}
+@media only screen and (max-width: 425px) {
+	.form {
+    	padding: 0px 20px;
+	}
+	#submitprofile-img {
+		height: 235px;
+	  	width: 211px;
+	  	float: unset;
+	}
+}

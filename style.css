@@ -1,0 +1,120 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(https://bangladesh.gov.bd/themes/responsive_npf/images/bg_main.gif);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: arial;
+}
+.form {
+	padding: 20px 180px;
+}
+/*.container {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+}*/
+.headline {
+	font-weight: bold;
+	font-family: arial;
+}
+.headline-txt {
+	font-weight: 500;
+	font-family: arial;
+}
+label {
+	/*display: block;*/
+	font-weight: 500;
+}
+input {
+	width: 100%;
+	font-size: 1em;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    padding: 6px;
+    margin: 15px 0px;
+}
+::placeholder {
+	color: #8C8C8C;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: arial;
+}
+input[type] {
+	color: #8C8C8C;
+}
+textarea {
+	width: 100%;
+	height: 163px;
+	font-size: 1em;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 6px;
+    border-style: solid;
+    display: block;
+}
+.textarea-a {
+	margin: 15px 0px;
+}
+select {
+	margin: 15px 0px;
+	color: #8C8C8C;
+}
+button {
+	margin: 20px 0px;
+}
+.radio {
+	width: 13px;
+	display: inline-block;
+}
+.gndr {
+	display: block;
+}
+#file-input {
+	display: none;
+}
+#choose-img {
+	height: 240px;
+	padding: 20px 0px;
+}
+button {
+	padding: 8px 25px 8px 25px;
+	border: none;
+	background-color: #000000;
+	color: #FFFFFFFF;
+	font-weight: bold;
+
+}
+hr {
+	margin-bottom: 50px;
+	border: 1px dashed;
+}
+.str {
+	color: red;
+	font-size: 19px;
+}
+
+/*Media Queries*/
+
+
+@media only screen and (max-width: 768px) {
+	.form {
+    padding: 0px 120px;
+}
+}
+@media only screen and (max-width: 425px) {
+	.form {
+    padding: 0px 20px;
+}
+}
+
